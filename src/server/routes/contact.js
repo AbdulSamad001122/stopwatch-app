@@ -1,6 +1,6 @@
 import { Router } from 'express';
 const router = Router();
-router.post('/contac', async (req, res) => {
+router.post('/contact', async (req, res) => {
   const { name, email } = req.body;
   if (!name || !email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return res.status(400).json({ error: 'Invalid name or email format' });
