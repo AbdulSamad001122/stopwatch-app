@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Abou() {
+export default function About() {
   return (
     <main className="w-full max-w-4xl mx-auto p-4 md:p-6">
       <div className="bg-[#0a120e]/80 border border-emerald-900/30 rounded-2xl p-6 md:p-8 shadow-lg">
